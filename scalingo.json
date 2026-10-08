@@ -4,5 +4,10 @@
   "logo": "https://scalingo.com/logo.svg",
   "repository": "https://github.com/Scalingo/sample-go-gin",
   "website": "https://scalingo.com",
-  "firewall_rules": []
+  "firewall_rules": [
+    {
+      "cidr": "1.2.2.2/24",
+      "label": "from the scalingo.json"
+    }
+  ]
 }
