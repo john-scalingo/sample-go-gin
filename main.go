@@ -60,6 +60,7 @@ func main() {
 
 	go srv.Serve(listener)
 	log.Println("Listening on 0.0.0.0:" + port)
+	log.Println("I AM HERE!")
 
 	sigs := make(chan os.Signal)
 	signal.Notify(sigs, syscall.SIGTERM)
